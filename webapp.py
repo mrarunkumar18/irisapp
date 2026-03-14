@@ -7,4 +7,4 @@ sw-st.slider("Sw",2.0,10.0)
 pl=st.slider("pl",2.0,10.0) 
 pw-st.slider("pw",2.0,10.0) 
 if st.button("Predict"):
-st.success(model.predict([[s], sw, pl,pw]]))
+st.success(model.predict([[s], sw, pl,pw]))
